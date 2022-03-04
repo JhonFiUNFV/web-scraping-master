@@ -1,5 +1,5 @@
 """
-OBJETIVO: 
+OBJETIVO:
   - Extraer las preguntas de la pagina principal de Stackoverflow
   - Aprender a utilizar Beautiful Soup para parsear el arbol HTML
 CREADO POR: LEONARDO KUFFO
@@ -25,17 +25,12 @@ contenedor_de_preguntas = soup.find(id="questions") # ENCONTRAR UN ELEMENTO POR 
 lista_de_preguntas = contenedor_de_preguntas.find_all('div', class_="s-post-summary js-post-summary") # ENCONTRAR VARIOS ELEMENTOS POR TAG Y POR CLASE
 for pregunta in lista_de_preguntas: # ITERAR ELEMENTO POR ELEMENTO
 
-
-  # METODO #2: APROVECHANDO EL PODER COMPLETO DE BEAUTIFUL SOUP
-  contenedor_pregunta = pregunta.find('h3')
-  texto_pregunta = contenedor_pregunta.text
-  descripcion_pregunta = contenedor_pregunta.find_next_sibling('div') # TRAVERSANDO EL ARBOL DE UNA MENERA DIFERENTE
-  texto_descripcion_pregunta = descripcion_pregunta.text
-
-  texto_descripcion_pregunta = texto_descripcion_pregunta.replace('\n', '').replace('\t', '')
+  # METODO #1: METODO TRADICIONAL
+  texto_pregunta = pregunta.find('h3').text # DENTRO DE CADA ELEMENTO ITERADO ENCONTRAR UN TAG
+  descripcion_pregunta = pregunta.find(class_='s-post-summary--content-excerpt').text # ENCONTRAR POR CLASE
+  descripcion_pregunta = descripcion_pregunta.replace('\n', '').replace('\r', '').strip() # LIMPIEZA DE TEXTO
   print (texto_pregunta)
-  print (texto_descripcion_pregunta)
+  print (descripcion_pregunta)
   print ()
-
 
 
