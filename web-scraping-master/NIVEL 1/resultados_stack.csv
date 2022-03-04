@@ -1,27 +1,31 @@
 descripcion,id,pregunta
 "
+                I am training a deep learning model with TensorFlow on a remote server. The problem is that I am only allocated 2 hours of training at a time and the server may crash at any points for various reason.
+...
+            ",[0],"Save, Recover, and Continue Updating Learning Curves while Training a CNN if Server Crashes Suddenly"
+"
                 /home/kevind/Downloads/VibeUtils2/node_modules/discord.js/src/client/Client.js:548
       throw new TypeError('CLIENT_MISSING_INTENTS');
       ^
 
 TypeError [CLIENT_MISSING_INTENTS]: Valid intents must ...
-            ",[0],Discordjs intents not valid?
+            ",[1],Discordjs intents not valid?
 "
                 I have an iPad app in which I'm starting to support multiple windows / scenes. I have one main window type, let's say MainScene, and at least one secondary window type for opening specific types of ...
-            ",[1],How can I choose which scene gets restored on iPadOS when all have been dismissed?
+            ",[2],How can I choose which scene gets restored on iPadOS when all have been dismissed?
 "
                 I'm trying to figure out why my code isn't squaring every item in the list instead of only the first element, what should I change about this?
 my_list = [10, 50, 75, 83, 98, 84, 32]
 def square_list(...
-            ",[2],List only squaring first element
+            ",[3],List only squaring first element
 "
                 I am learning about inter process communication and have set up a simple program. One program just prints whatever comes into its standard input, and is called taker:
 import java.util.Scanner;
 public ...
-            ",[3],How do I make Java's processbuilder run a .class file
+            ",[4],How do I make Java's processbuilder run a .class file
 "
                 Here is a screenshot of my code with the error on line 14
-            ",[4],"""Expected expression""error in my code I don't know what do do from here"
+            ",[5],"""Expected expression""error in my code I don't know what do do from here"
 "
                 I have the following ES query:
 GET database/_search
@@ -33,46 +37,41 @@ GET database/_search
       ""must"": [
         {
           ""...
-            ",[5],"Finding sum of the ""key"" values in bucket aggregations in Elasticsearch"
+            ",[6],"Finding sum of the ""key"" values in bucket aggregations in Elasticsearch"
 "
                 We're trying to create unit tests for an old .NET 4 web service. An MCVE:
 [WebService(Namespace = ""http://somecompany.com/someservice/"")]
 [WebServiceBinding(ConformsTo = WsiProfiles....
-            ",[6],Populating a fake `HttpContext.Current.Application` in `System.Web.Services.WebService`
+            ",[7],Populating a fake `HttpContext.Current.Application` in `System.Web.Services.WebService`
 "
                 I am not a programmer but am looking to hire one to develop a new data driven website with interactive data visualisations such as charts and graphs.
 My problem is that I don't know what sort of ...
-            ",[7],Best direction for new interactive data driven website
+            ",[8],Best direction for new interactive data driven website
 "
                 I can't see the problem .I'm running the same code in pythob and it helps but in notebook it's full of errors i'm not understanding.Please ifi someone can help me.
 
 import pandas as pd
 import csv      ...
-            ",[8],time data '-f' does not match format '%d%m%y%H%M%S' jupyter
+            ",[9],time data '-f' does not match format '%d%m%y%H%M%S' jupyter
 "
                 I have one source table in DB. I need to do group and sum to get one bridging table, extract supplier info on the other bridging table then join the two using part_number.
 If I run the subqueries ...
-            ",[9],SQL Server Never Ending when Join Two Tables
+            ",[10],SQL Server Never Ending when Join Two Tables
 "
                 Came cross a jar with certain hierarchy like below, for some reason i want to invoke com.col.3n.a.SomeMethod(), but java do not allow digits in package name, any ideas?
-            ",[10],how to access class with its name start with digit inside a jar file
+            ",[11],how to access class with its name start with digit inside a jar file
 "
                 I'm trying to get the slim object like (2eb9589b86...) but I receive [promise Object] using var hash = Ghash()
 async function Ghash(){
     let res = await fetch(`https://account.imperiomc.click/4lex_2....
-            ",[11],Promise is returning [object promise] instead of result [duplicate]
+            ",[12],Promise is returning [object promise] instead of result [duplicate]
 "
                 I have php that does pagination, but
 1: I can’t sort the data.
 2: I have no prev or next buttons to show only 10 pages at once.
 I specifically don’t want to use AJAX.
 I don’t know why I have to add ...
-            ",[12],Two Issues With Sorting Data and Prev and Next Buttons
+            ",[13],Two Issues With Sorting Data and Prev and Next Buttons
 "
                 I'm working on an e-commerce website, and I'm trying to create a button/handler that only appears when the current date is less than or equal to 30 days from the deliveryAt. I tried doing this by ...
-            ",[13],How to create a conditional handler/button
-"
-                I have an API built with Laravel and Sanctum.
-Front-end is built in NextJS. CORS and communication is doing fine - apparently, I can't see errors even with POST requests.
-Login goes fine, Laravel sets ...
-            ",[14],Axios and NextJS + Sanctum cookie: it's discarding baseURL and call wrong domain route
+            ",[14],How to create a conditional handler/button
