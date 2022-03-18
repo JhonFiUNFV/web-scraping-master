@@ -1,0 +1,7 @@
+https://docs.scrapy.org/en/0.14/topics/spiders.html?highlight=crawlspider#crawlspider
+https://docs.scrapy.org/en/0.14/topics/loaders.html?highlight=map%20compose#scrapy.contrib.loader.processor.MapCompose
+https://docs.scrapy.org/en/latest/topics/link-extractors.html#module-scrapy.linkextractors.lxmlhtml
+https://docs.scrapy.org/en/latest/topics/link-extractors.html#module-scrapy.linkextractors.lxmlhtml
+https://docs.zyte.com/smart-proxy-manager/integrations/scrapy.html
+https://www.zyte.com/
+https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
