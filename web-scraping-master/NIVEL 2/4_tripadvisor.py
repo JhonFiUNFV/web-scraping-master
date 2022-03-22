@@ -30,7 +30,7 @@ class TripAdvisor(CrawlSpider):
   }
 
   allowed_domains = ['tripadvisor.com']
-  start_urls = ['https://www.tripadvisor.com/Hotels-g303845-Guayaquil_Guayas_Province-Hotels.html']
+  start_urls = ['https://www.tripadvisor.com/Hotels-g316041-Ayacucho_Ayacucho_Region-Hotels.html']
 
   download_delay = 1
 
@@ -42,7 +42,7 @@ class TripAdvisor(CrawlSpider):
     Rule( 
       LinkExtractor( # DETALLE DE HOTELES (VERTICALIDAD DE PRIMER NIVEL)
         allow=r'/Hotel_Review-', 
-        restrict_xpaths=['//div[@id="taplc_hsx_hotel_list_lite_dusty_hotels_combined_sponsored_0"]'] # Evita obtener URLs repetidas reduciendo el espectro de busqueda de las URLs a solamente un contenedor especifico dentro de un XPATH
+        restrict_xpaths=['//div[@id="taplc_hsx_hotel_list_lite_dusty_filtered_out_hotels_sponsored_0"]'] # Evita obtener URLs repetidas reduciendo el espectro de busqueda de las URLs a solamente un contenedor especifico dentro de un XPATH
       ), follow=True), # No tiene callback porque aun no voy a extraer datos de aqui. Solamente voy a seguir otras URLs.
     Rule( 
       LinkExtractor( # HORIZONTALIDAD DE OPINIONES DE UN HOTEL (HORIZONTALIDAD DE SEGUNDO NIVEL)
