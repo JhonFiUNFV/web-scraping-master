@@ -38,7 +38,7 @@ class IGNCrawler(CrawlSpider):
     }
 
     allowed_domains = ['latam.ign.com']
-    start_urls = ['https://latam.ign.com/se/?model=article&q=ps4']
+    start_urls = ['https://latam.ign.com/se/?model=article&q=ps5']
 
     download_delay = 1
 
