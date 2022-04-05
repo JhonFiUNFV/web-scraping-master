@@ -19,7 +19,7 @@ opts.add_argument("user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36
 driver = webdriver.Chrome('./chromedriver.exe', options=opts)
 driver.get('https://twitter.com/login')
 
-user = "leonardokuffo"
+user = "jhon999079622"
 password = open('password.txt').readline().strip()
 
 

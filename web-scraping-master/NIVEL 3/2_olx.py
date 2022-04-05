@@ -43,8 +43,7 @@ for i in range(3): # Voy a darle click en cargar mas 3 veces
 
 # Encuentro cual es el XPATH de cada elemento donde esta la informacion que quiero extraer
 # Esto es una LISTA. Por eso el metodo esta en plural
-autos = driver.find_elements_by_xpath('//li[@data-aut-id="itemBox"]')
-
+autos = driver.find_elements(By.XPATH, '//li[@data-aut-id="itemBox"]')
 # Recorro cada uno de los anuncios que he encontrado
 for auto in autos:
     # Por cada anuncio hallo el precio, que en esta pagina principal, rara vez suele no estar, por eso hacemos esta validacion.
